@@ -1,26 +1,42 @@
 package com.company;
 
-public class ScheduledTime {
+public class ScheduledTime implements Comparable<ScheduledTime> {
 
-    String day;
+    int day;
 
-    String slot;
+    int slot;
 
     Room room;
 
-    public String getDay() {
+    public ScheduledTime(int day, int slot, Room room) {
+        this.day = day;
+        this.slot = slot;
+        this.room = room;
+    }
+
+    @Override
+    public int compareTo(ScheduledTime scheduledTime) {
+        if(this.room.size == scheduledTime.room.size)
+            return 0;
+        else if(this.room.size>scheduledTime.room.size)
+            return 1;
+        else
+            return -1;
+    }
+
+    public int getDay() {
         return day;
     }
 
-    public void setDay(String day) {
+    public void setDay(int day) {
         this.day = day;
     }
 
-    public String getSlot() {
+    public int getSlot() {
         return slot;
     }
 
-    public void setSlot(String slot) {
+    public void setSlot(int slot) {
         this.slot = slot;
     }
 

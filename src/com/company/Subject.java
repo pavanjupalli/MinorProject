@@ -1,16 +1,25 @@
 package com.company;
 
-public class Subject {
+public class Subject implements Comparable<Subject>{
 
     String subjectId;
 
     String subjectName;
 
-    Teacher teacher;
+    String teacherId;
 
-    Branch Branch;
+    int branchSize;
+
+    String branchId;
 
     ScheduledTime scheduledTime;
+
+    public Subject(String subjectId, String subjectName, String teacherId, String branchId) {
+        this.subjectId = subjectId;
+        this.subjectName = subjectName;
+        this.teacherId = teacherId;
+        this.branchId = branchId;
+    }
 
     public String getSubjectId() {
         return subjectId;
@@ -28,20 +37,20 @@ public class Subject {
         this.subjectName = subjectName;
     }
 
-    public Teacher getTeacher() {
-        return teacher;
+    public String getTeacherId() {
+        return teacherId;
     }
 
-    public void setTeacher(Teacher teacher) {
-        this.teacher = teacher;
+    public void setTeacherId(String teacherId) {
+        this.teacherId = teacherId;
     }
 
-    public com.company.Branch getBranch() {
-        return Branch;
+    public String getBranchId() {
+        return branchId;
     }
 
-    public void setBranch(com.company.Branch branch) {
-        Branch = branch;
+    public void setBranchId(String branchId) {
+        this.branchId = branchId;
     }
 
     public ScheduledTime getScheduledTime() {
@@ -50,5 +59,15 @@ public class Subject {
 
     public void setScheduledTime(ScheduledTime scheduledTime) {
         this.scheduledTime = scheduledTime;
+    }
+
+    @Override
+    public int compareTo(Subject subject) {
+        if(this.branchSize==subject.branchSize)
+            return 0;
+        else if(this.branchSize>subject.branchSize)
+            return 1;
+        else
+            return -1;
     }
 }

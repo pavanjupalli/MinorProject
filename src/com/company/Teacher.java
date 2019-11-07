@@ -6,7 +6,13 @@ public class Teacher {
 
     String TeacherName;
 
-    int[][]  availability;
+    Boolean[][]  availability;
+
+    public Teacher(String teacherId, String teacherName, Boolean[][] availability) {
+        TeacherId = teacherId;
+        TeacherName = teacherName;
+        this.availability = availability;
+    }
 
     public String getTeacherId() {
         return TeacherId;
@@ -24,11 +30,11 @@ public class Teacher {
         TeacherName = teacherName;
     }
 
-    public int[][] getAvailability() {
+    public Boolean[][] getAvailability() {
         return availability;
     }
 
-    public void setAvailability(int[][] availability) {
+    public void setAvailability(Boolean[][] availability) {
         this.availability = availability;
     }
 }
