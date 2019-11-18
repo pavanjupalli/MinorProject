@@ -1,0 +1,839 @@
+5 9
+B3  100
+B4  100
+B1  150
+B2  150
+G5  100
+G6  100
+G3  100
+G4  100
+G1  150
+G2  150
+F5  100
+F6  100
+F3  100
+F4  100
+F1  150
+F2  150
+S6  100
+S5  100
+S3  100
+S4  100
+S1  150
+S2  150
+
+&&&
+
+1A       94
+1B       94
+1C       94
+1D       94
+1E       94
+1F       94
+1G       94
+1H       94
+1I       94
+1J       94
+2CE      94
+3CE      94
+4CE      94
+2EE      94
+3EE      94
+4EE      94
+2ME      94
+3ME      94
+4ME      94
+2EC     94
+3ECE     94
+4ECE     94
+2CS     94
+3CS     94
+4CSE     94
+2CH     94
+3CH     94
+4CH     94
+2MS      94
+3MS      94
+
+&&&
+
+1  NehaYadav
+2  RKVats
+3  Sunil
+4  NagendraPratap
+5  CSB
+6  CSA
+7  CJC
+8  CSC
+9  MAA
+10 MAB
+11 SarojThakur
+12 ManojYadav
+13 HSA
+14 HSB
+15 AmitBage
+16 AmanKumar
+17 PushpendraSingh
+18 ECA
+19 ECB
+20 JaiPrakash
+21 PamitaAwasthi
+22 KalyanSGhosh
+23 BhartiGaur
+24 CYA
+25 MSA
+26 MSB
+27 MSC
+28 MSD
+29 MSE
+30 EEA
+31 ERK
+32 ERaj
+33 EEC
+34 PradeepKumar
+35 JoyPal
+36 SunhdipBiswas
+37 CEA
+38 CEB
+39 RajeshkrSharma
+40 ArvindKumar
+41 SubhashChand
+42 VimalSharma
+43 PHA
+44 TGanesh
+45 Chandsakeran
+46 ProfVinodYadava
+47 Siddhartha
+48 AnoopKumar 
+49 SuketKumar
+50 UKPandey
+51 ChanderPrakash
+52 RSBanshtu
+53 JosephTripura
+54 RamanParti
+55 Rajeev
+56 NaveenChauhan
+57 CSD
+58 GargiKhanna
+59 PawanKumarSharma
+60 RohitDhiman
+61 SurenderSoni
+62 CSPrasad
+63 RakeshSharma
+64 CSK
+65 VikramVerma
+66 RitaMaurya
+67 MSF
+68 MSG
+69 VishalSingh
+70 MSH
+71 YDSharma
+72 AnilYadav
+73 RNath
+74 ManishaSharma
+75 RajeshSharma
+76 Varun
+77 ManojKumar
+78 SunandKumar
+79 RajivSharma
+80 SRChauhan
+81 RKSharma
+82 VKBansal
+83 KNallasivam
+84 CSE
+85 BasantSubba
+86 DharmendraPdMahato 
+87 KrishanKumar
+88 ECG
+89 AshokKumar
+90 AnuradhaSonker
+91 AshwaniRana
+92 NewFaculty1
+93 NPS
+94 NewFaculty2
+95 NewFaculty3
+96 NewFaculty4
+97 OPRahi
+98 ZakirHusain
+99 AmitKaul
+100 EEF
+101 NewFaculty5
+102 PrashantKumar
+103 DeepakSharma
+104 DilshadAhmedKhan
+105 AKRoy
+106 Dharmendra
+107 VSDogra
+108 SunilSharma
+109 RKDutta
+110 Lokesh
+111 Pradeep 
+112 RavneetKaur
+113 PushpenderSingh
+114 Prakash
+115 ECE
+116 ECF
+117 ECK
+118 SaurabhKumar
+119 NewFaculty6
+120 RKJarial
+121 BBSharma
+122 AshwaniChandel
+123 YRSood
+124 RNSharma   
+125 NewFaculty7
+126 NewFaculty8
+127 EEG
+128 RadheyShyam
+129 CHE
+130 CHA
+131 ArvindKGautam
+132 TaraChandKumawat
+133 LeelaManohar
+134 CHB
+135 CHD
+136 TapasPalai     
+
+&&&
+
+MA111A  EnggMath-I                          1   1A                                                                     
+MA111A  EnggMath-I                          1   1A                                                                     
+MA111A  EnggMath-I                          1   1A                                                                     
+MA111A  EnggMath-I                          1   1A                                                                     
+MA111B  EnggMath-I                          1   1B
+MA111B  EnggMath-I                          1   1B
+MA111B  EnggMath-I                          1   1B
+MA111B  EnggMath-I                          1   1B
+MA111C  EnggMath-I                          2   1C    
+MA111C  EnggMath-I                          2   1C    
+MA111C  EnggMath-I                          2   1C    
+MA111C  EnggMath-I                          2   1C    
+MA111D  EnggMath-I                          2   1D    
+MA111D  EnggMath-I                          2   1D    
+MA111D  EnggMath-I                          2   1D    
+MA111D  EnggMath-I                          2   1D    
+MA111E  EnggMath-I                          3   1E    
+MA111E  EnggMath-I                          3   1E    
+MA111E  EnggMath-I                          3   1E    
+MA111E  EnggMath-I                          3   1E    
+MA121F  EnggMath-II                         3   1F
+MA121F  EnggMath-II                         3   1F
+MA121F  EnggMath-II                         3   1F
+MA121F  EnggMath-II                         3   1F
+MA121G  EnggMath-II                         9   1G
+MA121G  EnggMath-II                         9   1G
+MA121G  EnggMath-II                         9   1G
+MA121G  EnggMath-II                         9   1G
+MA121H  EnggMath-II                         9   1H
+MA121H  EnggMath-II                         9   1H
+MA121H  EnggMath-II                         9   1H
+MA121H  EnggMath-II                         9   1H
+MA121I  EnggMath-II                         10  1I
+MA121I  EnggMath-II                         10  1I
+MA121I  EnggMath-II                         10  1I
+MA121I  EnggMath-II                         10  1I
+MA121J  EnggMath-II                         10  1J                
+MA121J  EnggMath-II                         10  1J                
+MA121J  EnggMath-II                         10  1J                
+MA121J  EnggMath-II                         10  1J                
+CS101A  CompProg                            4   1A
+CS101A  CompProg                            4   1A
+CS101A  CompProg                            4   1A
+CS101B  CompProg                            5   1B
+CS101B  CompProg                            5   1B
+CS101B  CompProg                            5   1B
+CS101C  CompProg                            6   1C
+CS101C  CompProg                            6   1C
+CS101C  CompProg                            6   1C
+CS101D  CompProg                            7   1D
+CS101D  CompProg                            7   1D
+CS101D  CompProg                            7   1D
+CS101E  CompProg                            8   1E
+CS101E  CompProg                            8   1E
+CS101E  CompProg                            8   1E
+PH101A  EnggPhysics                         39  1A
+PH101A  EnggPhysics                         39  1A
+PH101A  EnggPhysics                         39  1A
+PH101A  EnggPhysics                         39  1A
+PH101B  EnggPhysics                         40  1B
+PH101B  EnggPhysics                         40  1B
+PH101B  EnggPhysics                         40  1B
+PH101B  EnggPhysics                         40  1B
+PH101C  EnggPhysics                         41  1C
+PH101C  EnggPhysics                         41  1C
+PH101C  EnggPhysics                         41  1C
+PH101C  EnggPhysics                         41  1C
+PH101D  EnggPhysics                         42  1D
+PH101D  EnggPhysics                         42  1D
+PH101D  EnggPhysics                         42  1D
+PH101D  EnggPhysics                         42  1D
+PH101E  EnggPhysics                         43  1E
+PH101E  EnggPhysics                         43  1E
+PH101E  EnggPhysics                         43  1E
+PH101E  EnggPhysics                         43  1E
+CE101A  AppMech                             34  1A
+CE101A  AppMech                             34  1A
+CE101A  AppMech                             34  1A
+CE101A  AppMech                             34  1A
+CE101B  AppMech                             35  1B               
+CE101B  AppMech                             35  1B               
+CE101B  AppMech                             35  1B               
+CE101B  AppMech                             35  1B               
+CE101C  AppMech                             36  1C
+CE101C  AppMech                             36  1C
+CE101C  AppMech                             36  1C
+CE101C  AppMech                             36  1C
+CE101D  AppMech                             37  1D
+CE101D  AppMech                             37  1D
+CE101D  AppMech                             37  1D
+CE101D  AppMech                             37  1D
+CE101E  AppMech                             38  1E
+CE101E  AppMech                             38  1E
+CE101E  AppMech                             38  1E
+CE101E  AppMech                             38  1E
+EC101A  BasicElectroEngg                    15  1A
+EC101A  BasicElectroEngg                    15  1A
+EC101A  BasicElectroEngg                    15  1A
+EC101B  BasicElectroEngg                    16  1B
+EC101B  BasicElectroEngg                    16  1B
+EC101B  BasicElectroEngg                    16  1B
+EC101C  BasicElectroEngg                    17  1C
+EC101C  BasicElectroEngg                    17  1C
+EC101C  BasicElectroEngg                    17  1C
+EC101D  BasicElectroEngg                    18  1D
+EC101D  BasicElectroEngg                    18  1D
+EC101D  BasicElectroEngg                    18  1D
+EC101E  BasicElectroEngg                    19  1E
+EC101E  BasicElectroEngg                    19  1E
+EC101E  BasicElectroEngg                    19  1E
+EE101F  BasicElectriEngg                    30  1F  
+EE101F  BasicElectriEngg                    30  1F  
+EE101F  BasicElectriEngg                    30  1F  
+EE101F  BasicElectriEngg                    30  1F  
+EE101G  BasicElectriEngg                    31  1G
+EE101G  BasicElectriEngg                    31  1G
+EE101G  BasicElectriEngg                    31  1G
+EE101G  BasicElectriEngg                    31  1G
+EE101H  BasicElectriEngg                    32  1H
+EE101H  BasicElectriEngg                    32  1H
+EE101H  BasicElectriEngg                    32  1H
+EE101H  BasicElectriEngg                    32  1H
+EE101I  BasicElectriEngg                    33  1I
+EE101I  BasicElectriEngg                    33  1I
+EE101I  BasicElectriEngg                    33  1I
+EE101I  BasicElectriEngg                    33  1I
+EE101J  BasicElectriEngg                    31  1J
+EE101J  BasicElectriEngg                    31  1J
+EE101J  BasicElectriEngg                    31  1J
+EE101J  BasicElectriEngg                    31  1J
+MS101F  MatSc&Engg                          25  1F
+MS101F  MatSc&Engg                          25  1F
+MS101F  MatSc&Engg                          25  1F
+MS101G  MatSc&Engg                          26  1G
+MS101G  MatSc&Engg                          26  1G
+MS101G  MatSc&Engg                          26  1G
+MS101H  MatSc&Engg                          27  1H                       
+MS101H  MatSc&Engg                          27  1H                       
+MS101H  MatSc&Engg                          27  1H                       
+MS101I  MatSc&Engg                          28  1I
+MS101I  MatSc&Engg                          28  1I
+MS101I  MatSc&Engg                          28  1I
+MS101J  MatSc&Engg                          29  1J
+MS101J  MatSc&Engg                          29  1J
+MS101J  MatSc&Engg                          29  1J
+CY101F  EnggChemis                          20  1F
+CY101F  EnggChemis                          20  1F
+CY101F  EnggChemis                          20  1F
+CY101F  EnggChemis                          20  1F
+CY101G  EnggChemis                          21  1G
+CY101G  EnggChemis                          21  1G
+CY101G  EnggChemis                          21  1G
+CY101G  EnggChemis                          21  1G
+CY101H  EnggChemis                          22  1H
+CY101H  EnggChemis                          22  1H
+CY101H  EnggChemis                          22  1H
+CY101H  EnggChemis                          22  1H
+CY101I  EnggChemis                          23  1I
+CY101I  EnggChemis                          23  1I
+CY101I  EnggChemis                          23  1I
+CY101I  EnggChemis                          23  1I
+CY101J  EnggChemis                          24  1J
+CY101J  EnggChemis                          24  1J
+CY101J  EnggChemis                          24  1J
+CY101J  EnggChemis                          24  1J
+HS101F  CommSkill                           11  1F
+HS101F  CommSkill                           11  1F
+HS101F  CommSkill                           11  1F
+HS101G  CommSkill                           12  1G
+HS101G  CommSkill                           12  1G
+HS101G  CommSkill                           12  1G
+HS101H  CommSkill                           13  1H
+HS101H  CommSkill                           13  1H
+HS101H  CommSkill                           13  1H
+HS101I  CommSkill                           14  1I
+HS101I  CommSkill                           14  1I
+HS101I  CommSkill                           14  1I
+HS101J  CommSkill                           13  1J
+HS101J  CommSkill                           13  1J
+HS101J  CommSkill                           13  1J
+MES211  ENGINEERINGMATHEMATICS-III          44  2ME   
+MES211  ENGINEERINGMATHEMATICS-III          44  2ME   
+MES211  ENGINEERINGMATHEMATICS-III          44  2ME   
+MES211  ENGINEERINGMATHEMATICS-III          44  2ME   
+MED212  ELECTRICALMACHINES&DRIVES           45  2ME   
+MED212  ELECTRICALMACHINES&DRIVES           45  2ME   
+MED212  ELECTRICALMACHINES&DRIVES           45  2ME   
+MED212  ELECTRICALMACHINES&DRIVES           45  2ME   
+MED213  MANUFACTURINGPROCESSES-I            46  2ME    
+MED213  MANUFACTURINGPROCESSES-I            46  2ME    
+MED213  MANUFACTURINGPROCESSES-I            46  2ME    
+MED213  MANUFACTURINGPROCESSES-I            46  2ME    
+MED214  MECHANICSOFMATERIALS                47  2ME    
+MED214  MECHANICSOFMATERIALS                47  2ME    
+MED214  MECHANICSOFMATERIALS                47  2ME    
+MED214  MECHANICSOFMATERIALS                47  2ME    
+MED215  FLUIDMECHANICS                      48  2ME    
+MED215  FLUIDMECHANICS                      48  2ME    
+MED215  FLUIDMECHANICS                      48  2ME    
+MED215  FLUIDMECHANICS                      48  2ME    
+CES211  ENGINEERINGMATHEMATICS-III          49  2CE   
+CES211  ENGINEERINGMATHEMATICS-III          49  2CE   
+CES211  ENGINEERINGMATHEMATICS-III          49  2CE   
+CES211  ENGINEERINGMATHEMATICS-III          49  2CE   
+CED212  StructuralAnalysis-I                50  2CE    
+CED212  StructuralAnalysis-I                50  2CE    
+CED212  StructuralAnalysis-I                50  2CE    
+CED212  StructuralAnalysis-I                50  2CE    
+CED213  SurveyingI                          51  2CE     
+CED213  SurveyingI                          51  2CE     
+CED213  SurveyingI                          51  2CE     
+CED213  SurveyingI                          51  2CE     
+CED214  EngineeringGeology                  52  2CE    
+CED214  EngineeringGeology                  52  2CE    
+CED214  EngineeringGeology                  52  2CE    
+CED214  EngineeringGeology                  52  2CE    
+CED215  Hydraulics                          53  2CE    
+CED215  Hydraulics                          53  2CE    
+CED215  Hydraulics                          53  2CE    
+CED215  Hydraulics                          53  2CE    
+CED216  TransportationEngineering-I         54  2CE    
+CED216  TransportationEngineering-I         54  2CE    
+CED216  TransportationEngineering-I         54  2CE    
+CED216  TransportationEngineering-I         54  2CE    
+CSS210  Probability&QueuingModels           44  2CS    
+CSS210  Probability&QueuingModels           44  2CS    
+CSS210  Probability&QueuingModels           44  2CS    
+CSS210  Probability&QueuingModels           44  2CS    
+CSD211  DiscreteStructure                   55  2CS     
+CSD211  DiscreteStructure                   55  2CS     
+CSD211  DiscreteStructure                   55  2CS     
+CSD211  DiscreteStructure                   55  2CS     
+CSD212  ObjectOrientedParadigm              8   2CS     
+CSD212  ObjectOrientedParadigm              8   2CS     
+CSD212  ObjectOrientedParadigm              8   2CS     
+CSD212  ObjectOrientedParadigm              8   2CS     
+CSD213  ComputerGraphics                    56  2CS     
+CSD213  ComputerGraphics                    56  2CS     
+CSD213  ComputerGraphics                    56  2CS     
+CSD213  ComputerGraphics                    56  2CS     
+CSD214  MicroprocessorandInterfacing        57  2CS     
+CSD214  MicroprocessorandInterfacing        57  2CS     
+CSD214  MicroprocessorandInterfacing        57  2CS     
+CSD214  MicroprocessorandInterfacing        57  2CS     
+CSD215  DigitalElectronics&LogicDesign      58  2CS    
+CSD215  DigitalElectronics&LogicDesign      58  2CS    
+CSD215  DigitalElectronics&LogicDesign      58  2CS    
+CSD215  DigitalElectronics&LogicDesign      58  2CS    
+ECS211  EngineeringMathematics-III         59  2EC    
+ECS211  EngineeringMathematics-III         59  2EC    
+ECS211  EngineeringMathematics-III         59  2EC    
+ECS211  EngineeringMathematics-III         59  2EC    
+ECD212  AnalogElectronics                   60  2EC     
+ECD212  AnalogElectronics                   60  2EC     
+ECD212  AnalogElectronics                   60  2EC     
+ECD212  AnalogElectronics                   60  2EC     
+ECD213  DigitalElectronicsandLogicDesign    61  2EC     
+ECD213  DigitalElectronicsandLogicDesign    61  2EC     
+ECD213  DigitalElectronicsandLogicDesign    61  2EC     
+ECD213  DigitalElectronicsandLogicDesign    61  2EC     
+ECD214  NetworkAnalysisandSynthesis         62  2EC      
+ECD214  NetworkAnalysisandSynthesis         62  2EC      
+ECD214  NetworkAnalysisandSynthesis         62  2EC      
+ECD214  NetworkAnalysisandSynthesis         62  2EC      
+ECD215  CommunicationTheory                 63  2EC     
+ECD215  CommunicationTheory                 63  2EC     
+ECD215  CommunicationTheory                 63  2EC     
+ECD215  CommunicationTheory                 63  2EC     
+ECD216  DataStructureandAlgorithm           64  2EC     
+ECD216  DataStructureandAlgorithm           64  2EC     
+ECD216  DataStructureandAlgorithm           64  2EC     
+ECD216  DataStructureandAlgorithm           64  2EC     
+EES211  AdvancedEngineeringMathematics      71  2EE    
+EES211  AdvancedEngineeringMathematics      71  2EE    
+EES211  AdvancedEngineeringMathematics      71  2EE    
+EES211  AdvancedEngineeringMathematics      71  2EE    
+EED212  NetworkAnalysis                     72  2EE      
+EED212  NetworkAnalysis                     72  2EE      
+EED212  NetworkAnalysis                     72  2EE      
+EED212  NetworkAnalysis                     72  2EE      
+EED213  DigitalElectronicsandLogicDesign    126 2EE     
+EED213  DigitalElectronicsandLogicDesign    126 2EE     
+EED213  DigitalElectronicsandLogicDesign    126 2EE     
+EED213  DigitalElectronicsandLogicDesign    126 2EE     
+EED214  Electrical&ElectronicMeasurement    73  2EE     
+EED214  Electrical&ElectronicMeasurement    73  2EE     
+EED214  Electrical&ElectronicMeasurement    73  2EE     
+EED214  Electrical&ElectronicMeasurement    73  2EE     
+EED215  ElectromagneticFieldTheory          74  2EE     
+EED215  ElectromagneticFieldTheory          74  2EE     
+EED215  ElectromagneticFieldTheory          74  2EE     
+EED215  ElectromagneticFieldTheory          74  2EE     
+MSS211  EngineeringMathematics-III          125 2MS     
+MSS211  EngineeringMathematics-III          125 2MS     
+MSS211  EngineeringMathematics-III          125 2MS     
+MSS211  EngineeringMathematics-III          125 2MS     
+MSD212  BasicMaterialsScience&Engineering   65  2MS     
+MSD212  BasicMaterialsScience&Engineering   65  2MS     
+MSD212  BasicMaterialsScience&Engineering   65  2MS     
+MSD212  BasicMaterialsScience&Engineering   65  2MS     
+MSD213  PolymerScience&Technology           66  2MS     
+MSD213  PolymerScience&Technology           66  2MS     
+MSD213  PolymerScience&Technology           66  2MS     
+MSD213  PolymerScience&Technology           66  2MS     
+MSD214  CeramicScience&Technology           67  2MS     
+MSD214  CeramicScience&Technology           67  2MS     
+MSD214  CeramicScience&Technology           67  2MS     
+MSD214  CeramicScience&Technology           67  2MS     
+MSD215  StrengthofMaterials                 68  2MS     
+MSD215  StrengthofMaterials                 68  2MS     
+MSD215  StrengthofMaterials                 68  2MS     
+MSD215  StrengthofMaterials                 68  2MS     
+MSD216  ThermodynamicsofMaterials           69  2MS     
+MSD216  ThermodynamicsofMaterials           69  2MS     
+MSD216  ThermodynamicsofMaterials           69  2MS     
+MSD216  ThermodynamicsofMaterials           69  2MS     
+MSD217  TransportPhenomenon                 70  2MS       
+MSD217  TransportPhenomenon                 70  2MS       
+MSD217  TransportPhenomenon                 70  2MS       
+MSD217  TransportPhenomenon                 70  2MS       
+MED311  MACHINEDESIGN-I                     75  3ME   
+MED311  MACHINEDESIGN-I                     75  3ME   
+MED311  MACHINEDESIGN-I                     75  3ME   
+MED311  MACHINEDESIGN-I                     75  3ME   
+MED312  HEATTRANSFER                        76  3ME     
+MED312  HEATTRANSFER                        76  3ME     
+MED312  HEATTRANSFER                        76  3ME     
+MED312  HEATTRANSFER                        76  3ME     
+MED313  MACHININGSCIENCE                    77  3ME     
+MED313  MACHININGSCIENCE                    77  3ME     
+MED313  MACHININGSCIENCE                    77  3ME     
+MED313  MACHININGSCIENCE                    77  3ME     
+MED314  DYNAMICSOFMACHINES                78  3ME     
+MED314  DYNAMICSOFMACHINES                78  3ME     
+MED314  DYNAMICSOFMACHINES                78  3ME     
+MED314  DYNAMICSOFMACHINES                78  3ME     
+MED315  INDUSTRIALENGINEERING               79  3ME     
+MED315  INDUSTRIALENGINEERING               79  3ME     
+MED315  INDUSTRIALENGINEERING               79  3ME     
+MED315  INDUSTRIALENGINEERING               79  3ME     
+MEO316  OPENELECTIVE-I                      80  3ME     
+MEO316  OPENELECTIVE-I                      80  3ME     
+MEO316  OPENELECTIVE-I                      80  3ME     
+MEO316  OPENELECTIVE-I                      80  3ME     
+CED311  StructuralAnalysis-III              50  3CE     
+CED311  StructuralAnalysis-III              50  3CE     
+CED311  StructuralAnalysis-III              50  3CE     
+CED311  StructuralAnalysis-III              50  3CE     
+CED312  RemoteSensingandGIS                 51  3CE     
+CED312  RemoteSensingandGIS                 51  3CE     
+CED312  RemoteSensingandGIS                 51  3CE     
+CED312  RemoteSensingandGIS                 51  3CE     
+CED313  GeotechnicalEngineering-II          81  3CE     
+CED313  GeotechnicalEngineering-II          81  3CE     
+CED313  GeotechnicalEngineering-II          81  3CE     
+CED313  GeotechnicalEngineering-II          81  3CE     
+CED314  BuildingConstruction&Drawing        38  3CE     
+CED314  BuildingConstruction&Drawing        38  3CE     
+CED314  BuildingConstruction&Drawing        38  3CE     
+CED315  ProjectPlanningandManagement        82  3CE     
+CED315  ProjectPlanningandManagement        82  3CE     
+CED315  ProjectPlanningandManagement        82  3CE     
+CED315  ProjectPlanningandManagement        82  3CE     
+CEO316  FiniteelementMethod                 83  3CE     
+CEO316  FiniteelementMethod                 83  3CE     
+CEO316  FiniteelementMethod                 83  3CE     
+CEO316  FiniteelementMethod                 83  3CE     
+CSD311  ModellingandSimulation              84  3CS     
+CSD311  ModellingandSimulation              84  3CS     
+CSD311  ModellingandSimulation              84  3CS     
+CSD311  ModellingandSimulation              84  3CS     
+CSD312  Analysis&DesignofAlgorithms         85  3CS     
+CSD312  Analysis&DesignofAlgorithms         85  3CS     
+CSD312  Analysis&DesignofAlgorithms         85  3CS     
+CSD312  Analysis&DesignofAlgorithms         85  3CS     
+CSD313  DataBaseManagementSystem            86  3CS     
+CSD313  DataBaseManagementSystem            86  3CS     
+CSD313  DataBaseManagementSystem            86  3CS     
+CSD313  DataBaseManagementSystem            86  3CS     
+CSD314  CompilerDesign                      4   3CS     
+CSD314  CompilerDesign                      4   3CS     
+CSD314  CompilerDesign                      4   3CS     
+CSD314  CompilerDesign                      4   3CS     
+CSD315  CommunicationEngineering            87  3CS     
+CSD315  CommunicationEngineering            87  3CS     
+CSD315  CommunicationEngineering            87  3CS     
+CSD315  CommunicationEngineering            87  3CS     
+CSO316  OpenElective-I                      55  3CS      
+CSO316  OpenElective-I                      55  3CS      
+CSO316  OpenElective-I                      55  3CS      
+CSO316  OpenElective-I                      55  3CS      
+EED311  ProtectionandSwitchgear             97  3EE     
+EED311  ProtectionandSwitchgear             97  3EE     
+EED311  ProtectionandSwitchgear             97  3EE     
+EED311  ProtectionandSwitchgear             97  3EE     
+EED312  ElectricalMachines-II               98  3EE       
+EED312  ElectricalMachines-II               98  3EE       
+EED312  ElectricalMachines-II               98  3EE       
+EED312  ElectricalMachines-II               98  3EE       
+EED313  Signal&System                       99  3EE     
+EED313  Signal&System                       99  3EE     
+EED313  Signal&System                       99  3EE     
+EED313  Signal&System                       99  3EE     
+EED314  TransducersandSignalConditioning    32  3EE      
+EED314  TransducersandSignalConditioning    32  3EE      
+EED314  TransducersandSignalConditioning    32  3EE      
+EED314  TransducersandSignalConditioning    32  3EE      
+EED315  MicroelectronicsandIntegratedCKT    100 3EE      
+EED315  MicroelectronicsandIntegratedCKT    100 3EE      
+EED315  MicroelectronicsandIntegratedCKT    100 3EE      
+EED315  MicroelectronicsandIntegratedCKT    100 3EE      
+EEO316  OpenElective-I                      101 3EE      
+EEO316  OpenElective-I                      101 3EE      
+EEO316  OpenElective-I                      101 3EE      
+EEO316  OpenElective-I                      101 3EE      
+MSD311  Nanomaterials                       66  3MS     
+MSD311  Nanomaterials                       66  3MS     
+MSD311  Nanomaterials                       66  3MS     
+MSD311  Nanomaterials                       66  3MS     
+MSD312  PhaseTransformationandHeatTreatment 93  3MS      
+MSD312  PhaseTransformationandHeatTreatment 93  3MS      
+MSD312  PhaseTransformationandHeatTreatment 93  3MS      
+MSD312  PhaseTransformationandHeatTreatment 93  3MS      
+MSD313  MagneticMaterialsforindustry        65  3MS      
+MSD313  MagneticMaterialsforindustry        65  3MS      
+MSD313  MagneticMaterialsforindustry        65  3MS      
+MSD313  MagneticMaterialsforindustry        65  3MS      
+MSD314  LaserMaterialProcessing             94  3MS      
+MSD314  LaserMaterialProcessing             94  3MS      
+MSD314  LaserMaterialProcessing             94  3MS      
+MSD314  LaserMaterialProcessing             94  3MS      
+MSD315  MaterialsSelectionandDesign         95  3MS      
+MSD315  MaterialsSelectionandDesign         95  3MS      
+MSD315  MaterialsSelectionandDesign         95  3MS      
+MSD315  MaterialsSelectionandDesign         95  3MS      
+MSD316  MaterialsforSpecificApplications    96  3MS           
+MSD316  MaterialsforSpecificApplications    96  3MS           
+MSD316  MaterialsforSpecificApplications    96  3MS           
+MSD316  MaterialsforSpecificApplications    96  3MS           
+MSO317  OpenElective-I                      69  3MS      
+MSO317  OpenElective-I                      69  3MS      
+MSO317  OpenElective-I                      69  3MS      
+MSO317  OpenElective-I                      69  3MS      
+ECD311  MicroprocessorTheoryandApplications 88  3ECE      
+ECD311  MicroprocessorTheoryandApplications 88  3ECE      
+ECD311  MicroprocessorTheoryandApplications 88  3ECE      
+ECD311  MicroprocessorTheoryandApplications 88  3ECE      
+ECD312  DigitalCommunicationandSystems      89  3ECE      
+ECD312  DigitalCommunicationandSystems      89  3ECE      
+ECD312  DigitalCommunicationandSystems      89  3ECE      
+ECD312  DigitalCommunicationandSystems      89  3ECE      
+ECD313  Antenna&Wavepropagation             90  3ECE      
+ECD313  Antenna&Wavepropagation             90  3ECE      
+ECD313  Antenna&Wavepropagation             90  3ECE      
+ECD313  Antenna&Wavepropagation             90  3ECE      
+ECD314  ElectronicsDeviceModeling           91  3ECE       
+ECD314  ElectronicsDeviceModeling           91  3ECE       
+ECD314  ElectronicsDeviceModeling           91  3ECE       
+ECD314  ElectronicsDeviceModeling           91  3ECE       
+ECD315  ControlSystem                       92  3ECE      
+ECD315  ControlSystem                       92  3ECE      
+ECD315  ControlSystem                       92  3ECE      
+ECD315  ControlSystem                       92  3ECE      
+ECD316B OpenElective-I                      15  3ECE      
+ECD316B OpenElective-I                      15  3ECE      
+ECD316B OpenElective-I                      15  3ECE      
+ECD316B OpenElective-I                      15  3ECE      
+MED411  REFRIGERATION&AIRCONDITIONING    102 4ME      
+MED411  REFRIGERATION&AIRCONDITIONING    102 4ME      
+MED411  REFRIGERATION&AIRCONDITIONING    102 4ME      
+MED411  REFRIGERATION&AIRCONDITIONING    102 4ME      
+MED412  TURBOMACHINES                      103 4ME      
+MED412  TURBOMACHINES                      103 4ME      
+MED412  TURBOMACHINES                      103 4ME      
+MED412  TURBOMACHINES                      103 4ME      
+MED413  OPERATIONSRESEARCH                 125 4ME      
+MED413  OPERATIONSRESEARCH                 125 4ME      
+MED413  OPERATIONSRESEARCH                 125 4ME      
+MED413  OPERATIONSRESEARCH                 125 4ME      
+MEE414  ELECTIVE-1(DESIGN)                  77  4ME      
+MEE414  ELECTIVE-1(DESIGN)                  77  4ME      
+MEE414  ELECTIVE-1(DESIGN)                  77  4ME      
+MEE414  ELECTIVE-1(DESIGN)                  77  4ME      
+MEE415  ELECTIVE-2(PRODUCTION)              104 4ME      
+MEE415  ELECTIVE-2(PRODUCTION)              104 4ME      
+MEE415  ELECTIVE-2(PRODUCTION)              104 4ME      
+MEE415  ELECTIVE-2(PRODUCTION)              104 4ME      
+CSD410  InformationSecurity                 110 4CSE     
+CSD410  InformationSecurity                 110 4CSE     
+CSD410  InformationSecurity                 110 4CSE     
+CSD410  InformationSecurity                 110 4CSE     
+CSD411  AdvancedComputerArchitecture        111 4CSE      
+CSD411  AdvancedComputerArchitecture        111 4CSE      
+CSD411  AdvancedComputerArchitecture        111 4CSE      
+CSD411  AdvancedComputerArchitecture        111 4CSE      
+CSD412  AdvancedOperatingSystem             112 4CSE      
+CSD412  AdvancedOperatingSystem             112 4CSE      
+CSD412  AdvancedOperatingSystem             112 4CSE      
+CSD412  AdvancedOperatingSystem             112 4CSE      
+CSE413  DepartmentalElective-I              113 4CSE      
+CSE413  DepartmentalElective-I              113 4CSE      
+CSE413  DepartmentalElective-I              113 4CSE      
+CSE413  DepartmentalElective-I              113 4CSE      
+CSE414  DepartmentalElective-II             114 4CSE      
+CSE414  DepartmentalElective-II             114 4CSE      
+CSE414  DepartmentalElective-II             114 4CSE      
+CSE414  DepartmentalElective-II             114 4CSE      
+ECH411  EngineeringEconomics&Management     119 4ECE     
+ECH411  EngineeringEconomics&Management     119 4ECE     
+ECH411  EngineeringEconomics&Management     119 4ECE     
+ECH411  EngineeringEconomics&Management     119 4ECE     
+ECD412  OpticalCommunicationSystems         115 4ECE      
+ECD412  OpticalCommunicationSystems         115 4ECE      
+ECD412  OpticalCommunicationSystems         115 4ECE      
+ECD412  OpticalCommunicationSystems         115 4ECE      
+ECD413  IndustrialElectronics               116 4ECE      
+ECD413  IndustrialElectronics               116 4ECE      
+ECD413  IndustrialElectronics               116 4ECE      
+ECD413  IndustrialElectronics               116 4ECE      
+ECE414  Elective-I                          118 4ECE      
+ECE414  Elective-I                          118 4ECE      
+ECE414  Elective-I                          118 4ECE      
+ECE414  Elective-I                          118 4ECE      
+ECE415  Elective-II                         117 4ECE      
+ECE415  Elective-II                         117 4ECE      
+ECE415  Elective-II                         117 4ECE      
+ECE415  Elective-II                         117 4ECE      
+EED411  EnergyAuditingandManagement         120 4EE      
+EED411  EnergyAuditingandManagement         120 4EE      
+EED411  EnergyAuditingandManagement         120 4EE      
+EED411  EnergyAuditingandManagement         120 4EE      
+EED412  ModernControlSystem                 121 4EE      
+EED412  ModernControlSystem                 121 4EE      
+EED412  ModernControlSystem                 121 4EE      
+EED412  ModernControlSystem                 121 4EE      
+EED413  ElectricalMachineDesign             122 4EE      
+EED413  ElectricalMachineDesign             122 4EE      
+EED413  ElectricalMachineDesign             122 4EE      
+EED413  ElectricalMachineDesign             122 4EE      
+EED414  DepartmentalElective-I              123 4EE      
+EED414  DepartmentalElective-I              123 4EE      
+EED414  DepartmentalElective-I              123 4EE      
+EED414  DepartmentalElective-I              123 4EE      
+EED415  DepartmentalElective-II             124 4EE      
+EED415  DepartmentalElective-II             124 4EE      
+EED415  DepartmentalElective-II             124 4EE      
+EED415  DepartmentalElective-II             124 4EE      
+CED411  StructuralDesign-II(SteelSTRT)      105 4CE     
+CED411  StructuralDesign-II(SteelSTRT)      105 4CE     
+CED411  StructuralDesign-II(SteelSTRT)      105 4CE     
+CED411  StructuralDesign-II(SteelSTRT)      105 4CE     
+CED412  EnvironmentalEngineering-II         106 4CE      
+CED412  EnvironmentalEngineering-II         106 4CE      
+CED412  EnvironmentalEngineering-II         106 4CE      
+CED412  EnvironmentalEngineering-II         106 4CE      
+CED413  HydraulicStructure                  107 4CE      
+CED413  HydraulicStructure                  107 4CE      
+CED413  HydraulicStructure                  107 4CE      
+CED413  HydraulicStructure                  107 4CE      
+CEE414  TransportPlanningandPublicTransport 108 4CE     
+CEE414  TransportPlanningandPublicTransport 108 4CE     
+CEE414  TransportPlanningandPublicTransport 108 4CE     
+CEE414  TransportPlanningandPublicTransport 108 4CE     
+CEE414  TransportPlanningandPublicTransport 108 4CE     
+CEE414  TransportPlanningandPublicTransport 108 4CE     
+CEE415  Geosynthetics                       109 4CE      
+CEE415  Geosynthetics                       109 4CE      
+CEE415  Geosynthetics                       109 4CE      
+CEE415  Geosynthetics                       109 4CE      
+CHD211  IndustrialInstrumentation           127 2CH      
+CHD211  IndustrialInstrumentation           127 2CH      
+CHD211  IndustrialInstrumentation           127 2CH      
+CHD211  IndustrialInstrumentation           127 2CH      
+CHD212  FluidMechanics                      128 2CH      
+CHD212  FluidMechanics                      128 2CH      
+CHD212  FluidMechanics                      128 2CH      
+CHD212  FluidMechanics                      128 2CH      
+CHD213  ChemicalProcessCalculation          129 2CH      
+CHD213  ChemicalProcessCalculation          129 2CH      
+CHD213  ChemicalProcessCalculation          129 2CH      
+CHD213  ChemicalProcessCalculation          129 2CH      
+CHD214  MechanicalUnitOperation             130 2CH      
+CHD214  MechanicalUnitOperation             130 2CH      
+CHD214  MechanicalUnitOperation             130 2CH      
+CHD214  MechanicalUnitOperation             130 2CH      
+CHD215  MaterialScienceandEngineering       25  2CH      
+CHD215  MaterialScienceandEngineering       25  2CH      
+CHD215  MaterialScienceandEngineering       25  2CH      
+CHD215  MaterialScienceandEngineering       25  2CH      
+CHD216  ChemicalEngineeringThermodynamics-I 131 2CH      
+CHD216  ChemicalEngineeringThermodynamics-I 131 2CH      
+CHD216  ChemicalEngineeringThermodynamics-I 131 2CH      
+CHD216  ChemicalEngineeringThermodynamics-I 131 2CH      
+CHD411  ProcessModelingandSimulation        132 4CH      
+CHD411  ProcessModelingandSimulation        132 4CH      
+CHD411  ProcessModelingandSimulation        132 4CH      
+CHD411  ProcessModelingandSimulation        132 4CH      
+CHD412  ProcessEconomicsandPlantDesign      128 4CH      
+CHD412  ProcessEconomicsandPlantDesign      128 4CH      
+CHD412  ProcessEconomicsandPlantDesign      128 4CH      
+CHD412  ProcessEconomicsandPlantDesign      128 4CH      
+CHD413  ProcessEqipmentDesign-II            136 4CH      
+CHD413  ProcessEqipmentDesign-II            136 4CH      
+CHD413  ProcessEqipmentDesign-II            136 4CH      
+CHD413  ProcessEqipmentDesign-II            136 4CH      
+CHE414A Elective-I(PolymerScience&EngNR)    133 4CH      
+CHE414A Elective-I(PolymerScience&EngNR)    133 4CH      
+CHE414A Elective-I(PolymerScience&EngNR)    133 4CH      
+CHE414A Elective-I(PolymerScience&EngNR)    133 4CH      
+CHE415A Elective-II(FertilizerTechnology)   131 4CH      
+CHE415A Elective-II(FertilizerTechnology)   131 4CH      
+CHE415A Elective-II(FertilizerTechnology)   131 4CH      
+CHE415A Elective-II(FertilizerTechnology)   131 4CH      
+CHD311  MassTransfer-I                      133 3CH     
+CHD311  MassTransfer-I                      133 3CH     
+CHD311  MassTransfer-I                      133 3CH     
+CHD311  MassTransfer-I                      133 3CH     
+CHD312  ChemicalReactionEngineering-I       136 3CH      
+CHD312  ChemicalReactionEngineering-I       136 3CH      
+CHD312  ChemicalReactionEngineering-I       136 3CH      
+CHD312  ChemicalReactionEngineering-I       136 3CH      
+CHD313  ProcessDynamicControl               134 3CH
+CHD313  ProcessDynamicControl               134 3CH
+CHD313  ProcessDynamicControl               134 3CH
+CHD313  ProcessDynamicControl               134 3CH
+CHD314  ProcessEquipmentDesign-I            130 3CH
+CHD314  ProcessEquipmentDesign-I            130 3CH
+CHD314  ProcessEquipmentDesign-I            130 3CH
+CHD314  ProcessEquipmentDesign-I            130 3CH
+CHD315  IndustrialSafetyandHazardManagement 135 3CH
+CHD315  IndustrialSafetyandHazardManagement 135 3CH
+CHD315  IndustrialSafetyandHazardManagement 135 3CH
+CHD315  IndustrialSafetyandHazardManagement 135 3CH
+CHD311  OpenElective-I(CFD)                 132 3CH
+CHD311  OpenElective-I(CFD)                 132 3CH
+CHD311  OpenElective-I(CFD)                 132 3CH
+CHD311  OpenElective-I(CFD)                 132 3CH
+
+&&&
+
+
