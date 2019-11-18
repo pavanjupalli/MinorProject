@@ -1,6 +1,6 @@
 package com.company;
 
-public class Subject implements Comparable<Subject>{
+public class Subject implements Comparable<Subject> {
 
     String subjectId;
 
@@ -23,6 +23,14 @@ public class Subject implements Comparable<Subject>{
 
     public String getSubjectId() {
         return subjectId;
+    }
+
+    public int getBranchSize() {
+        return branchSize;
+    }
+
+    public void setBranchSize(int branchSize) {
+        this.branchSize = branchSize;
     }
 
     public void setSubjectId(String subjectId) {
@@ -63,11 +71,6 @@ public class Subject implements Comparable<Subject>{
 
     @Override
     public int compareTo(Subject subject) {
-        if(this.branchSize==subject.branchSize)
-            return 0;
-        else if(this.branchSize>subject.branchSize)
-            return 1;
-        else
-            return -1;
+        return Integer.compare(this.branchSize,subject.branchSize);
     }
 }

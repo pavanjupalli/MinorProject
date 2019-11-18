@@ -1,72 +1,91 @@
 package com.company;
 
-import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.*;
 
 public class Main {
 
-    private List<Subject> subjectList;
-
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(new FileInputStream("E:\\MyData.txt"));
-        int noOfWorkingDaysPerWeek, noOfSlotsPerDay, noOfLecperSub;
+
+        int a = 1, noOfWorkingDaysPerWeek, noOfSlotsPerDay;
+
+        //decleration of each list.
+
         List<Subject> subjectList = new ArrayList<>();
         List<Room> roomList = new ArrayList<>();
         List<Branch> branchList = new ArrayList<>();
         List<Teacher> teacherList = new ArrayList<>();
         List<ScheduledTime> scheduledTimeList = new ArrayList<>();
+
+
         noOfWorkingDaysPerWeek = scanner.nextInt();
         noOfSlotsPerDay = scanner.nextInt();
-        noOfLecperSub = scanner.nextInt();
-        Boolean[][] teacherAvailiability = new Boolean[noOfWorkingDaysPerWeek][noOfSlotsPerDay];
-        Boolean[][] branchAvailiability = new Boolean[noOfWorkingDaysPerWeek][noOfSlotsPerDay];
-        Boolean[][] errorFixing = new Boolean[noOfWorkingDaysPerWeek][noOfSlotsPerDay];
-        for (int i = 0; i < noOfWorkingDaysPerWeek; i++)
-            for (int j = 0; j < noOfSlotsPerDay; j++) {
-                teacherAvailiability[i][j] = true;
-                branchAvailiability[i][j] = false;
-                errorFixing[i][j] = false;
-            }
+
+        //scaning each room from input file  & making room List
+        String string;
         while (scanner.hasNext()) {
-            if (scanner.next().equals("----")) {
+            string = scanner.next();
+            if (!string.equals("&&&")) {
+                roomList.add(new Room(string, scanner.nextInt()));
+            } else
                 break;
-            }
-            roomList.add(new Room(scanner.next(), scanner.nextInt()));
         }
+        //scanning each Branch && making Branch List
 
         while (scanner.hasNext()) {
-            if (scanner.next().equals("----"))
+            string = scanner.next();
+            if (!string.equals("&&&"))
+                branchList.add(new Branch(string, scanner.nextInt(), noOfWorkingDaysPerWeek, noOfSlotsPerDay));
+            else
                 break;
-            branchList.add(new Branch(scanner.next(),scanner.nextInt(),branchAvailiability));
         }
 
+
+        //scanning each Teacher & making Teacher List
+
         while (scanner.hasNext()) {
-            if (scanner.next().equals("----"))
+            string = scanner.next();
+            if (!string.equals("&&&"))
+                teacherList.add(new Teacher(string, scanner.next(), noOfWorkingDaysPerWeek, noOfSlotsPerDay));
+            else
                 break;
-            teacherList.add(new Teacher(scanner.next(), scanner.next(), teacherAvailiability));
         }
+
+
+        // scanning each Subject and Making subject List
+
+        while (scanner.hasNext()) {
+            String subjectId = scanner.next();
+            if (!subjectId.equals("&&&")) {
+                String subjectName = scanner.next(), teacherId = scanner.next(), branchId = scanner.next();
+                subjectList.add(new Subject(subjectId, subjectName, teacherId, branchId));
+            } else
+                break;
+
+        }
+
+
+        // making schedule Time List
+
         for (Room room : roomList) {
-            for (int i = 1; i <= noOfWorkingDaysPerWeek; i++) {
-                for (int j = 1; j <= noOfSlotsPerDay; j++) {
+            for (int i = 0; i < noOfWorkingDaysPerWeek; i++) {
+                for (int j = 0; j < noOfSlotsPerDay; j++) {
                     scheduledTimeList.add(new ScheduledTime(i, j, room));
                 }
             }
         }
 
-        while (scanner.hasNext()) {
-            if (scanner.next().equals("----"))
-                break;
-            String subjectId = scanner.next(), subjectName = scanner.next(), teacherId = scanner.next(), branchId = scanner.next();
-            for (int i = 0; i < noOfLecperSub; i++) {
-                subjectList.add(new Subject(subjectId, subjectName, teacherId, branchId));
-            }
-        }
+
+        // intializing hashMaps
 
         HashMap<String, Branch> branchHashMap = new HashMap<>();
         HashMap<String, Teacher> teacherHashMap = new HashMap<>();
+
+
+        // adding data into hashMap
+
         for (Branch branch : branchList) {
             branchHashMap.put(branch.branchId, branch);
         }
@@ -74,10 +93,38 @@ public class Main {
             teacherHashMap.put(teacher.TeacherId, teacher);
         }
 
+
+        // assigning branch Size Values
+
+        for (Subject subject : subjectList) {
+            subject.branchSize = branchHashMap.get(subject.branchId).branchSize;
+        }
+
+        // sorting SubjectList on the basis of branch Size
+
         Collections.sort(subjectList);
+
+        // sorting scheduleTimeList on the basis of room Size
+
         Collections.sort(scheduledTimeList);
 
-        Boolean matched = false, temp = false;
+        // making final hashmap.
+
+
+        HashMap<String, List<Subject>> finalHashMap = new HashMap<>();
+        List<Subject> list;
+        for (int i = 0; i < noOfWorkingDaysPerWeek; i++) {
+            for (int j = 0; j < noOfSlotsPerDay; j++) {
+                list = new ArrayList<>();
+                finalHashMap.put(Integer.toString(i).concat(Integer.toString(j)), list);
+            }
+        }
+
+
+        //mapping the sorted subject list and scheduleTime List, making errorSubjectList.
+
+        int k = 0;
+        boolean matched, temp;
         ScheduledTime tempScheduleTime = null;
         List<Subject> errorSubjectList = new ArrayList<>();
         for (Subject subject : subjectList) {
@@ -85,82 +132,99 @@ public class Main {
             temp = false;
             for (ScheduledTime scheduledTime : scheduledTimeList) {
                 if (branchHashMap.get(subject.branchId).branchSize <= scheduledTime.room.size) {
-                    if (temp == false) {
+                    if (!temp) {
                         tempScheduleTime = scheduledTime;
                         temp = true;
                     }
-                    if (teacherHashMap.get(subject.teacherId).availability[scheduledTime.day][scheduledTime.slot] == true
-                            && branchHashMap.get(subject.branchId).availability[scheduledTime.day][scheduledTime.slot] == true) {
+                    if (teacherHashMap.get(subject.teacherId).availability[scheduledTime.day][scheduledTime.slot]
+                            && branchHashMap.get(subject.branchId).availability[scheduledTime.day][scheduledTime.slot]) {
                         subject.scheduledTime = scheduledTime;
                         branchHashMap.get(subject.branchId).availability[scheduledTime.day][scheduledTime.slot] = false;
                         teacherHashMap.get(subject.teacherId).availability[scheduledTime.day][scheduledTime.slot] = false;
+                        finalHashMap.get(Integer.toString(subject.scheduledTime.day).concat(Integer.toString(subject.scheduledTime.slot))).add(subject);
                         matched = true;
+                        break;
                     }
                 }
             }
-            if (matched == false) {
-                if (temp == true) {
-                    subject.scheduledTime = tempScheduleTime;
-                    errorFixing[tempScheduleTime.day][tempScheduleTime.slot] = true;
-                    errorSubjectList.add(subject);
-                } else
-                    return;
-            }
-        }
-        HashMap<String, List<Subject>> finalHashMap = new HashMap<>();
-        List<Subject> list;
-        for (Integer i = 0; i < noOfWorkingDaysPerWeek; i++) {
-            for (Integer j = 0; j < noOfSlotsPerDay; j++) {
-                list = new ArrayList<>();
-                finalHashMap.put(Integer.toString(i) + Integer.toString(j), list);
+            if (!matched && temp) {
+                subject.scheduledTime = tempScheduleTime;
+                errorSubjectList.add(subject);
+                k++;
             }
         }
 
 
-        List<ScheduledTime>  slotScheduleTime;
-        HashMap<String,List<ScheduledTime> > scheduleTimeHasMap =  new HashMap<>();
-        for (int i = 0; i < noOfWorkingDaysPerWeek; i++) {
-            for (int j = 0; j < noOfSlotsPerDay; j++) {
-                slotScheduleTime = new ArrayList<>();
-                scheduleTimeHasMap.put(Integer.toString(i) + Integer.toString(j),slotScheduleTime);
-            }
-        }
-        ScheduledTime tempScheduleTime1;
-        for (Subject subject : errorSubjectList) {
-            int matchingSlot = subject.scheduledTime.slot,matchingDay = subject.scheduledTime.day;
-            for(int i = 0; i < noOfWorkingDaysPerWeek ; i++){
-                for(int j = 0; j < noOfSlotsPerDay; j++){
-                    for (Subject subject1: finalHashMap.get(i+j)){
-                        if(branchHashMap.get(subject.branchId).branchSize <= subject1.scheduledTime.room.size
-                                && branchHashMap.get(subject1.branchId).branchSize <= subject1.scheduledTime.room.size){
+        // reducing errors
 
+        if (k != 0) {
+            ScheduledTime tempScheduleTime1;
+            for (Subject subject : errorSubjectList) {
+                int erroredSlot = subject.scheduledTime.slot, erroredDay = subject.scheduledTime.day;
+
+                if (a != 1) {
+
+                    for (int i = 0; i < noOfWorkingDaysPerWeek; i++) {
+                        for (int j = 0; j < noOfSlotsPerDay; j++) {
+                            for (Subject subject1 : finalHashMap.get(Integer.toString(i).concat(Integer.toString(j)))) {
+                                if (branchHashMap.get(subject.branchId).branchSize <= subject1.scheduledTime.room.size
+                                        && branchHashMap.get(subject1.branchId).branchSize <= subject1.scheduledTime.room.size) {
+                                    System.out.println("nothing will be done");
+
+                                }
+                            }
                         }
                     }
                 }
-            }
 
-            for (int i = 0; i < noOfWorkingDaysPerWeek; i++) {
-                for (int j = 0; j < noOfSlotsPerDay; j++) {
+                for (int i = 0; i < noOfWorkingDaysPerWeek; i++) {
+                    for (int j = 0; j < noOfSlotsPerDay; j++) {
 
-                        if (teacherHashMap.get(subject.teacherId).availability[i][j] == true
-                                && branchHashMap.get(subject.branchId).availability[i][j] == true) {
+                        if (teacherHashMap.get(subject.teacherId).availability[i][j]
+                                && branchHashMap.get(subject.branchId).availability[i][j]) {
 
-                            for (Subject subject1 : finalHashMap.get(i + j)) {
-                                if (teacherHashMap.get(subject1.teacherId).availability[matchingDay][matchingSlot] = true
-                                        && branchHashMap.get(subject.branchId).availability[matchingDay][matchingSlot] == true) {
-                                    if (branchHashMap.get(subject.branchId).branchSize <= subject1.scheduledTime.room.size
-                                            && branchHashMap.get(subject1.branchId).branchSize <= subject1.scheduledTime.room.size) {
-                                        tempScheduleTime1 = subject.scheduledTime;
-                                        subject.scheduledTime = subject1.scheduledTime;
-                                        subject1.scheduledTime = tempScheduleTime1;
+                            for (Subject subject1 : finalHashMap.get(Integer.toString(i).concat(Integer.toString(j)))) {
+                                if (teacherHashMap.get(subject1.teacherId).availability[erroredDay][erroredSlot]
+                                        && branchHashMap.get(subject1.branchId).availability[erroredDay][erroredSlot]
+                                        && branchHashMap.get(subject.branchId).branchSize <= subject1.scheduledTime.room.size
+                                        && branchHashMap.get(subject1.branchId).branchSize <= subject1.scheduledTime.room.size) {
+                                    if (!finalHashMap.get(Integer.toString(subject.scheduledTime.day).concat(Integer.toString(subject.scheduledTime.slot))).remove(subject)) {
+                                        return;
                                     }
+                                    tempScheduleTime1 = subject.scheduledTime;
+                                    subject.scheduledTime = subject1.scheduledTime;
+                                    subject1.scheduledTime = tempScheduleTime1;
+                                    finalHashMap.get(Integer.toString(subject.scheduledTime.day).concat(Integer.toString(subject.scheduledTime.slot))).add(subject1);
+                                    finalHashMap.get(Integer.toString(subject.scheduledTime.day).concat(Integer.toString(subject.scheduledTime.slot))).add(subject);
                                 }
                             }
 
                         }
 
+                    }
                 }
             }
+        }
+
+
+        //printing output
+        scanner.close();
+        FileOutputStream fileOutputStream = new FileOutputStream("E:\\MyData1.txt");
+        String finalString;
+        for (Branch branch : branchList) {
+            fileOutputStream.write(branch.branchId.getBytes());
+            fileOutputStream.write('\n');
+            fileOutputStream.write('\n');
+            for (Subject subject : subjectList) {
+                if (branchHashMap.get(subject.branchId).equals(branch)) {
+                    finalString = subject.subjectId + " " + subject.subjectName + " " + subject.branchId + " " + subject.teacherId + " "
+                            + subject.scheduledTime.day + " " + subject.scheduledTime.slot + " " + subject.scheduledTime.room.roomId;
+                    fileOutputStream.write(finalString.getBytes());
+                    fileOutputStream.write('\n');
+                }
+            }
+            fileOutputStream.write('\n');
+            fileOutputStream.write('\n');
         }
 
     }

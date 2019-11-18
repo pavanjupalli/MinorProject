@@ -4,14 +4,20 @@ public class Branch {
 
     String branchId;
 
+    String branchName;
+
     int branchSize;
 
     Boolean[][] availability;
 
-    public Branch(String branchId, int branchSize, Boolean[][] availability) {
+    public Branch(String branchId, int branchSize, int noOfWorkingDaysPerWeek, int noOfSlotsPerDay) {
         this.branchId = branchId;
         this.branchSize = branchSize;
-        this.availability = availability;
+        this.availability = new Boolean[noOfWorkingDaysPerWeek][noOfSlotsPerDay];
+        for (int i = 0; i < noOfWorkingDaysPerWeek; i++)
+            for (int j = 0; j < noOfSlotsPerDay; j++) {
+                this.availability[i][j] = true;
+            }
     }
 
     public String getBranchId() {

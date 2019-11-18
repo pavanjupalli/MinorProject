@@ -3,6 +3,8 @@ package com.company;
 public class Room {
     String roomId;
 
+    String roomName;
+
     int size;
 
     public String getRoomId() {

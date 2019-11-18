@@ -16,9 +16,9 @@ public class ScheduledTime implements Comparable<ScheduledTime> {
 
     @Override
     public int compareTo(ScheduledTime scheduledTime) {
-        if(this.room.size == scheduledTime.room.size)
+        if (this.room.size == scheduledTime.room.size)
             return 0;
-        else if(this.room.size>scheduledTime.room.size)
+        else if (this.room.size > scheduledTime.room.size)
             return 1;
         else
             return -1;
